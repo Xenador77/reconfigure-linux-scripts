@@ -13,50 +13,35 @@ sudo apt install -y \
 	gcc-multilib \
 	gcc \
 	g++ \
-	clisp \
 	nodejs \
 	npm \
-	valac \
 	gfortran \
 	fort77
 
 #the fun stuff. A list of graphic software, delete the line for any software you don't need or want. I don't use all of these things, but I tried to cover as many bases as I could.
 sudo apt install -y \
-	docky \
 	firefox \
 	chromium-browser \
-	deluge \
-	gimp \
-	inkscape \
-	krita \
-	blender \
 	openscad \
 	freecad \
 	kicad \
-	audacity \
-	libreoffice libreoffice-gtk \
-	vlc \
-	tilda \
-	terminology
 
 #super useful commandline tools and utilities. These are what I spend most of my time using.
 sudo apt install -y \
 	tmux \
-	vim \
-	ffmpeg \
-	mplayer \
-	feh \
-	wordgrinder \
 	htop \
 	git \
-	xboxdrv \
 	screen \
 	curl \
 	wget
 	xrandr \
 	ssh \
-	rsync
-	lolcat #This one is just fun. Test it out with something like "cat *.sh | lolcat"
+	rsync \
+	xrdp \
+	nmap \
+	rtl8812-dkms \
+	gdb-multiarch \
+	openocd \
 
 #installs ranger, a file manager, and w3m, a web browser. w3m is needed to display images in ranger. The rest of the programs are other packages that go with ranger
 sudo apt install -y ranger w3m w3m-img highlight atool caca-utils poppler-utils
