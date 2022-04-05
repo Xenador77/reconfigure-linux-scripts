@@ -15,7 +15,6 @@ sudo easy_install3 pip
 pip install --upgrade pip
 
 pip install \
-	youtube-dl \
 	virtualenvwrapper \
 	flask \
 	flask_sqlalchemy \
