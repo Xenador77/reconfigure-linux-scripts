@@ -1,9 +1,3 @@
-//First and foremost THANK YOU DEREK52!!
-
-//I am new to github repos so if this in any way affects the branch I forked from please let me know!
-
-//I'm gratefully forking this repo and using it as a template to save me countless hours spent distro-hopping and making it a less mandala like experience. 
-
 # configure-linux-scripts
 
 These are a few scripts designed to automate the process of installing your desired software, and making a few customization tweaks.
